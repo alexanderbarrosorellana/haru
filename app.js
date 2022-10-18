@@ -18,7 +18,7 @@ app.use(cors(corsOptions))
 app.use(router)
 
 app.use('/', (req, res) => {
-  res.send("this is the microservice 1 and version v1.0.0")
+  res.send("API STATUS OK")
 })
 
 app.listen(port, () => {

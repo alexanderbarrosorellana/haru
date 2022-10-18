@@ -1,6 +1,6 @@
 const router = require('express').Router()
-const helloRoute = require('./hello')
+const pharmaciesRoute = require('./pharmacies')
 
-router.use('/hello', helloRoute)
+router.use('/pharmacies', pharmaciesRoute)
 
 module.exports = router;
